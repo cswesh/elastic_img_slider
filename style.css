@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.hero{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1f0c08;
+}
+#image1{
+    background-image: url(img1.jpg);
+}
+#image2{
+    background-image: url(img2.jpg);
+}
+#image3{
+    background-image: url(img3.jpg);
+}
+#image4{
+    background-image: url(img4.jpg);
+}
+
+.hero .elastic-slider{
+    cursor:grab;
+    width:900px;
+    height:600px;
+}
+.hero .elastic-slider:active{
+    cursor: grabbing;
+}
+.hero .elastic-slider div{
+    background-size: cover;
+    background-position:center;
+}
